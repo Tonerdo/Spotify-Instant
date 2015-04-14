@@ -1,0 +1,122 @@
+body {
+
+	font-family: 'Century Gothic';
+}
+
+div.header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+div.inner-header {
+	padding: 15px;
+	background-color: darkgreen;
+	color: white;
+}
+
+div.container {
+	margin-top: 60px;
+	width: 70%;
+}
+
+	div.container input {
+		width: 50%;
+		border-radius: 3px;
+		border: 1px solid darkgreen;
+		font-family: 'Century Gothic';
+		font-size: 14px;
+		padding: 5px;
+	}
+
+	div.container select {
+		border-radius: 3px;
+		border: 1px solid darkgreen;
+		font-family: 'Century Gothic';
+		font-size: 14px;
+		padding: 5px;
+		width: 100px;
+	}
+
+span.small-text {
+	font-size: 12px;
+}
+
+div.content {
+	margin-top: 25px;
+}
+
+div.results {
+	font-size: 13px;
+}
+
+div.item {
+	margin-bottom: 60px;
+}
+
+	div.item span {
+		margin-left: 5px;
+	}
+
+	div.item a {
+		color: darkgreen;
+		text-decoration: none;
+	}
+
+	div.item p {
+		margin-top: -8px;
+	}
+
+	div.item img {
+		float: left;;
+	}
+
+img.play {
+	margin-left: 5px;
+}
+/*
+.search {
+	width: 100%;
+	padding: 8px;
+	font-family: 'Century Gothic';
+	border: 1px solid darkgreen;
+}
+
+.grid {
+	width: 100px;
+	height: 100px;
+	margin: 5px;
+	float: left;
+	color: white;
+	cursor: pointer;
+	font-size: 12px;
+	position: relative;
+}
+
+.grid span {
+	position: absolute;
+	bottom: 5px;
+	left: 5px;
+}
+
+.resturant {
+	background-image: url("../images/resturant.png");
+}
+
+.all {
+	background-image: url("../images/all.png");
+}
+
+.shop {
+	background-image: url("../images/shop.png");
+}
+
+.hotel {
+	background-image: url("../images/hotel.png");
+}
+
+.school {
+	background-image: url("../images/school.png");
+}
+*/

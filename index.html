@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Spotify Instant Search</title>
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<script type="text/javascript" src="js/jquery/jquery-1.10.2.min.js"></script>
+	<script type="text/javascript" src="js/vars.js"></script>
+	<script type="text/javascript" src="js/utils.js"></script>
+</head>
+<body>
+
+	<div class="header">
+		<div class="inner-header">
+			Spotify Instant
+		</div>
+	</div>
+
+	<div class="container">
+		<select id="type" name="">
+			<option value="album">Album</option>
+			<option value="artist">Artist</option>
+			<option value="playlist">Playlist</option>
+			<option value="track">Track</option>
+		</select>
+		<input id="search" type="text" placeholder="Search..." />
+		<div class="content">
+			<h3>Search Results</h3>
+			<p id="no"></p>
+			<div class="results">
+				<!--
+					<div class="item">
+						<img class="thumb" src="https://i.scdn.co/image/7656b84909364ec7269f2c1655892caedc09151e" />
+						<span>Type name</span>
+						<p></p>
+						<a href=""><img class="play" src="images/play.png" />&nbsp;Play</a>
+					</div>
+				-->
+			</div>
+		</div>
+		
+	</div>
+
+<script type="text/javascript" src="js/script.js"></script>
+
+</body>
+</html>
